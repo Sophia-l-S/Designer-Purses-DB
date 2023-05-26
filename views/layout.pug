@@ -1,0 +1,35 @@
+block variables 
+doctype html 
+html 
+  head
+    meta(charset="utf-8")
+    title #{title} | Purse website
+    block scripts 
+      link(rel="stylesheet", type="text/css", href="/styles.css")
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@600;800&family=Comfortaa&family=Space+Grotesk:wght@300;600&display=swap" rel="stylesheet">
+  body
+    header#header
+      .header-content
+        h2#site-name
+          a(href="#").namtitle Purse Imporum
+          p.designer designer purses
+      nav#main-navigation 
+        ul.nav 
+          li  
+            a(href="/") Home 
+          li 
+            a(href="/about") About 
+          li 
+            a(href="/contact") Contact
+          li 
+            a(href="/admin/menu") Menu 
+          
+
+  block main-content
+
+
+
+    footer#footer 
+      p &copy; Copyright HTTP5211, 2023.

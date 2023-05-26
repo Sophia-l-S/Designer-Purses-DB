@@ -1,0 +1,235 @@
+#header {
+  background-color: rgb(255, 255, 255);
+  height: 6em;
+}
+
+/* home page */
+.mainflo {
+  width: 100%;
+  height: auto;
+  /* height: 90%; */
+  position: absolute;
+  top: 8em;
+}
+
+.img10 {
+  height: auto;
+  width: 25em;
+  position: relative;
+  left: 35%;
+  top: 8.5em;
+  padding-bottom: 15em;
+}
+
+.seemore {
+  font-family: 'Space Grotesk', sans-serif;
+  width: 8em;
+  height: 5em;
+  position: relative;
+  top: -14em;
+  left: 45%;
+  border-radius: 10px;
+  background-color: rgb(236, 216, 217, 1);
+}
+
+body {
+  background: linear-gradient(180deg, rgba(236, 216, 217, 1) 0%, rgba(188, 174, 150, 1) 100%);
+  font-family: 'Space Grotesk', sans-serif;
+
+
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 2px;
+  align-items: stretch;
+}
+
+.listnames {
+  text-align: right;
+}
+
+.namtitle {
+  font-size: 230%;
+  text-decoration: none;
+  color: #493C32;
+}
+
+.namtitle:hover {
+  color: #3c312a;
+}
+
+li {
+  list-style-type: none;
+  /* display: flex; */
+}
+
+nav#main-navigation ul li a {
+  display: flex;
+  width: 10%;
+  position: relative;
+  float: right;
+  right: 4%;
+  text-decoration: none;
+  top: -2.5em;
+  /* list-style-type: none; */
+
+  font-size: 200%;
+  color: #493C32;
+}
+
+nav#main-navigation ul li a:hover {
+  color: #29211c;
+}
+
+.designer {
+  font-weight: 300;
+  position: absolute;
+  left: 2.8em;
+  top: 2.7em;
+  color: #493C32;
+}
+
+
+/* database portion */
+h1.month {
+  padding-left: 6em;
+  font-size: 2em;
+}
+
+.itemTab thead tr th {
+  left: 50%;
+  font-weight: 200;
+}
+
+.itemTab {
+  border: 2px solid #3c312a;
+  border-radius: 8px;
+  padding: 5px;
+}
+
+.tbody td {
+  font-weight: 100;
+  border: 2px solid #3c312a;
+  border-radius: 8px;
+  padding: 5px;
+}
+
+.img11 {
+  position: relative;
+  background-repeat: no-repeat;
+}
+
+.img22 {
+  position: relative;
+}
+
+.img33 {
+  position: relative;
+}
+
+.img44 {
+  position: relative;
+}
+
+.img55 {
+  position: relative;
+}
+
+/* contact page */
+.formDes {
+  position: relative;
+  height: auto;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 200%;
+  color: #493C32;
+  padding-left: 35%;
+  padding-top: 15%;
+}
+
+.fname,
+.email,
+.phone {
+  color: #29211c;
+  border-radius: 25px;
+  height: 2em;
+}
+
+.subBtn {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 70%;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.contacflo {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 8em;
+}
+
+.contUs {
+  font-family: 'Space Grotesk', sans-serif;
+  position: relative;
+  left: 43%;
+  top: 6em;
+  color: #493C32;
+}
+
+/* About Page */
+.about {
+  position: absolute;
+  padding-left: 10%;
+  top: 5em;
+  color: #493C32;
+  font-size: 3em;
+}
+
+.aboutflo {
+  width: 100%;
+  height: 90%;
+  position: relative;
+  top: -1em;
+}
+
+.story {
+  margin-left: 90px;
+  font-weight: 100;
+  font-size: 60%;
+}
+
+.began {
+  font-weight: 100;
+  font-size: 50%;
+  width: 40%;
+}
+
+
+/* sources */
+/* https://ca.coachoutlet.com/en/products/clara-shoulder-bag-with-shooting-star-print/CE590-IMCAH.html?ogmap=PLA|ACQ|GOOG|STND|c|SITEWIDE|Outlet|Coach_OTL_Google_PLA_Signal_NA_Generic_CA_PMAX_NA_BAU|Shopping_Canada_Smart_Generic||17729555980||CA&utm_source=google&utm_id=go_cmp-17729555980_adg-_ad-__dev-c_ext-_prd-CE590_IMCAH_sig-EAIaIQobChMIpu-rrdbM_AIVQ-DICh3IxAocEAkYCCABEgKoOvD_BwE&gclid=EAIaIQobChMIpu-rrdbM_AIVQ-DICh3IxAocEAkYCCABEgKoOvD_BwE */
+/* https://www.simons.ca/en/women-accessories/bags--6574 */
+/* https://www.prada.com/ca/en/women/bags/mini_bags/products.Shearling_mini_bag.1BC204_2EC9_F0615_V_ZOO.html?utm_campaign=GoogleShopping_CA&utm_medium=CPC&utm_source=Google&utm_content=Shopping&s_kwcid=AL!8549!3!579563754372!!!u!1601357482951!&gclid=EAIaIQobChMI_tOPofLM_AIV2eDICh115APwEAsYBCABEgKGV_D_BwE&gclsrc=aw.ds */
+/* https://www.simons.ca/en/women-accessories/bags/shoulder-bags/alison-padded-baguette-bag--18270-162227?catId=6574&colourId=56 */
+/* https://surprise.katespade.com/products/schuyler-medium-dome-satchel/K8701-650.html?KSNY=true&ogmap=PLA|ACQ|GOOG|STND|c|SITEWIDE|Surprise|KS_OTL_Google_PLA_Signal_NA_CA_PMax_NA_BAU|Sitewide_Regular_Core_NA||19166621906||CA&gclid=EAIaIQobChMIuLq0wf3M_AIVAe7jBx0kyAu3EAkYBCABEgJi6vD_BwE */
+/* https://ca.shein.com/Minimalist-Ruched-Bag-p-10350609-cat-1764.html?url_from=caadplasg2204189236609362_GPM&cid=18668113597&setid=&adid=&pf=GOOGLE&gclid=EAIaIQobChMInf799b_7_AIVE_rICh3IawJcEAQYBCABEgLiY_D_BwE */
+/* https://ca.coachoutlet.com/en/products/heart-crossbody/CE652-IMRED.html?ogmap=PLA|ACQ|GOOG|STND|c|SITEWIDE|Outlet|Coach_OTL_Google_PLA_Signal_NA_Generic_CA_PMAX_NA_BAU|Shopping_Canada_Smart_Generic||17729555980||CA&utm_source=google&utm_id=go_cmp-17729555980_adg-_ad-__dev-c_ext-_prd-CE652_IMRED_sig-EAIaIQobChMIxKWS28D7_AIVKfXICh08-Q2gEAQYFSABEgJQt_D_BwE&gclid=EAIaIQobChMIxKWS28D7_AIVKfXICh08-Q2gEAQYFSABEgJQt_D_BwE */
+/* https://www.wallpaperflare.com/flowers-white-pink-background-tender-frame-floral-wallpaper-yhutv/download/2880x1800 */
+/* https://surprise.katespade.com/products/love-shack-embellished-heart-crossbody-purse/KA780-650.html?KSNY=true&ogmap=PLA|ACQ|GOOG|STND|c|SITEWIDE|Surprise|KS_OTL_Google_PLA_Signal_NA_CA_PMax_NA_BAU|Sitewide_Regular_Core_NA||19166621906||CA&gclid=EAIaIQobChMI_oHthZmA_QIVm0JHAR2CZAhBEAQYBiABEgKkjfD_BwE */
+/* https://www.prada.com/ca/en/products.Small_Prada_Galleria_Saffiano_leather_bag.1BA896_NZV_F0E18_V_EOO.html?utm_campaign=GoogleShopping_CA&utm_medium=CPC&utm_source=Google&utm_content=Shopping&s_kwcid=AL!8549!3!579563754372!!!u!771099972234!&gclid=EAIaIQobChMIxdXJmpuA_QIVZc7ICh1WdAu5EAkYBSABEgIDKfD_BwE&gclsrc=aw.ds */
+/* https://www.wallpaperflare.com/flowers-white-pink-background-tender-frame-floral-wallpaper-yhutv */
+/* https://www.wallpaperflare.com/flowers-background-gift-pink-beautiful-romantic-present-wallpaper-horhb/download/2880x1800 */

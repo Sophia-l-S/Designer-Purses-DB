@@ -1,0 +1,41 @@
+[{
+  "_id": {
+    "$oid": "63e27c66b761ea88b2cfdd79"
+  },
+  "Brand": "Coach",
+  "Color": "White, Star Pattern",
+  "Price": "$200",
+  "Size": "Length: 6.5cm, Width: 22cm"
+},{
+  "_id": {
+    "$oid": "63e27d1ab761ea88b2cfdd7a"
+  },
+  "Brand": "Prada",
+  "Color": "Orchid, Pink",
+  "Price": "$4000",
+  "Size": "Length: 6cm, Width: 28cm"
+},{
+  "_id": {
+    "$oid": "63e27d74b761ea88b2cfdd7b"
+  },
+  "Brand": "Kate Spade",
+  "Color": "Light Pink",
+  "Price": "$350",
+  "Size": "Length: 8cm, Width: 30cm"
+},{
+  "_id": {
+    "$oid": "63e27d9eb761ea88b2cfdd7c"
+  },
+  "Brand": "Simons",
+  "Color": "Purple",
+  "Price": "$400",
+  "Size": "Length: 5cm, Width: 20cm"
+},{
+  "_id": {
+    "$oid": "63e282cfb761ea88b2cfdd7e"
+  },
+  "Brand": "Kate Spade",
+  "Color": "White, Cherry pattern",
+  "Price": "$250",
+  "Size": "Length: 5cm, Width: 23cm"
+}]

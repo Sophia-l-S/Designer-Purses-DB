@@ -1,0 +1,21 @@
+extends layout 
+block main-content
+  link(rel="stylesheet", type="text/css", href="/public/styles.css")
+
+  img.contacflo(src='/img/contacflo.jpg')
+  h1.contUs Contact Us
+  body
+    form(role='form' method='GET').formDes
+              div.form-group
+                label(for='name') Full Name:
+                input#name.fname(type='text', placeholder='First Name and Last Name' name='name')
+              div.form-group
+                label(for='email') Email:
+                input#email.email(type='email', placeholder='name@email.com' name='email')
+              div.form-group
+                label(for='phone') Phone Number:
+                input#phone.phone(type='text', placeholder='###-###-####' name='name')
+
+              button.subBtn(type="submit", name="submit") Submit
+
+
